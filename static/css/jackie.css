@@ -1,0 +1,73 @@
+button.app {
+    border: 1px solid rgb(4, 53, 30);
+    background: rgb(243,233,250);
+    background: linear-gradient(0deg, rgba(243,233,250,1) 0%, rgba(205,219,219,1) 100%);
+    color:rgb(6, 8, 7);
+    font: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    width: 200px;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+div.middle-headline {
+    position: fixed; 
+    text-align: center;
+    top: 5%;
+    left: 28%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:rgb(1, 11, 6);
+    font-weight: 300;
+}
+
+body {
+    background-image: url('/static/images/snow3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+@media (max-width: 800px) {
+
+    body {
+        background-image: url('/static/images/snow.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      div.middle-headline {
+        position: fixed; 
+        text-align: center;
+        top: 5%;
+        left: 13%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        color:rgb(1, 11, 6);
+        font-weight: 300;
+    }
+}
+
+div.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f079;
+    padding: 10px;
+    text-align: center;
+    /* Additional styles as needed */
+  }
+
+/* @media (max-width:1007px ) {
+
+    body {
+        background-image: url('/static/images/snow2.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+} */
