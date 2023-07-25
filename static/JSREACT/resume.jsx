@@ -15,7 +15,7 @@ function App() {
         <div>
             <div className = "middle-headline">
             <h1> Jaclyn Louise Detweiler <br></br></h1>
-            <h1>Software Engineer</h1>
+            <h1> ✨ Software Engineer ✨</h1>
             </div>
 
 

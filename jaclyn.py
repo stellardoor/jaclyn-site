@@ -32,6 +32,7 @@ def display_resume():
     # Render a template that embeds the HTML content
     return render_template('resume.html', html_content=html_content)
 
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
